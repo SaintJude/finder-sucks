@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Finder Sucks}",
+            "name": "Debug FinderSucks",
+            "target": "FinderSucks",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug FinderSucks"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Finder Sucks}",
+            "name": "Release FinderSucks",
+            "target": "FinderSucks",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release FinderSucks"
+        }
+    ]
+}
